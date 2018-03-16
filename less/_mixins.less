@@ -1,0 +1,27 @@
+/* ----- MIXINS --------------------------------- */
+
+.anim(@type, @time, @long) {
+  -webkit-transition: @type @time @long;
+  -moz-transition: @type @time @long;
+  -ms-transition: @type @time @long;
+  -o-transition: @type @time @long;
+  transition: @type @time @long;
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.centered(@left: 50%) {
+  position: relative;
+  left: @left;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

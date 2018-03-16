@@ -1,10 +1,11 @@
-# Pet saloon website template for pets health and beauty
+# A journalistic approach: Bullying according to social status.
 
-A website template with different pages layout based on Canessa pet saloon website ([Peluquería canina Canessa](http://peluqueriacanessa.com/)). A nodejs (yarn too) project with less + jade/pug template engine. Full page slider, Error 404, Catalog Gallery and Legal Terms pages included.
+An infography website template with single page navigation by scroll down based on Yolanda Lorenzo Fdez final degree thesis. A nodejs (yarn too) project with less + jade/pug template engine. Error 404 and Legal Terms pages included.
 
 ## Credits and Dependencies
 
-- Images by Vanessa Vizcaya García [@peluqueriacanessa](https://www.instagram.com/peluqueriacanessa/) and Javier Lorenzo Fernández aka [@jalofernadez](http://www.arted.es/)
+- Codepen project based: [Nikolay Talanov](https://codepen.io/suez/) aka [@suez](https://codepen.io/suez/)
+- Images by [Freepik](https://www.freepik.es/) and Javier Lorenzo Fernández aka [@jalofernadez](http://www.arted.es/)
 - [jquery.com](http://jquery.com/) by The jQuery Foundation
 - [materializecss.com](http://materializecss.com/) by Alvin Wang, Alan Chang, Alex Mark and 
 Kevin Louie

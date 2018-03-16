@@ -1,0 +1,61 @@
+//- MODAL dialog in MOBILE devices :: "CONTACT"
+#modal_contact.modal
+    .modal-content
+        h4 #{common.titles.contact}:
+        .row.noMargBottom
+            .col.s12.m6.l6
+                ul.site-social
+                    li
+                        a(href='tel:912480430', title='Llamar a peluquería canina Canessa')
+                            i.fa.fa-phone
+                            | #{common.phone}
+                    li
+                        a(href='mailto:van.vizcaya@gmail.com', title='Escribir email a peluquería canina Canessa')
+                            i.fa.fa-envelope
+                            | #{common.email}
+                    li
+                        a(href='https://goo.gl/maps/Aegzf2qZF4x', target='_blank', rel="noopener noreferrer", title='Dirección de a peluquería canina Canessa en Google maps')
+                            i.fa.fa-map-marker
+                            | !{common.address}
+            .col.s12.m6.l6.row-dos
+                ul.site-social.right
+                    li
+                        b #{common.schedule.days.week}:
+                    li
+                        a(href='', title='Horario de mañana de la peluquería canina Canessa')
+                            em
+                                i.fa.fa-clock-o
+                                | #{common.schedule.workday.morning}:&nbsp;
+                            span #{common.schedule.hours.morning}
+                    li
+                        a(href='', title='Horario de tarde de la peluquería canina Canessa')
+                            em
+                                i.fa.fa-clock-o
+                                | #{common.schedule.workday.evening}:&nbsp;
+                            span #{common.schedule.hours.evening}
+                    li
+                        b #{common.schedule.days.weekend}:
+                    li
+                        a(href='', title='Horario de mañana de la peluquería canina Canessa')
+                            em.clockDos
+                                i.fa.fa-clock-o
+                                | #{common.schedule.workday.morning}:&nbsp;
+                            span #{common.schedule.hours.morning}
+                    li
+                        a(href='', title='Establecimiento cerrado los sábados por la tarde')
+                            em
+                                i.fa.fa-clock-o
+                                | #{common.schedule.workday.evening}:&nbsp;
+                            span #{common.schedule.hours.closed}
+                    li
+                        b #{common.schedule.days.closed}:
+                    li
+                        a(href='', title='Establecimiento cerrado los martes')
+                            em.clockDos
+                                i.fa.fa-clock-o
+                                | #{common.schedule.workday.both}:&nbsp;
+                            span #{common.schedule.hours.closed}
+    .modal-footer
+        a.modal-action.modal-close.btn-flat(href='#!')
+            | #{common.close}&nbsp;
+            i.fa.fa-close
