@@ -51,8 +51,8 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         .bg-part
-                        h2.section-heading #{slides.cover.title}
-                        p.additional-text !{slides.cover.subtitle}
+                        h2.section-heading !{slides.cover.title}
+                        .additional-text !{slides.cover.subtitle}
                 //- (2) slide :: "one"
                 .section.section-2
                     .left-part
@@ -66,9 +66,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.one.title}
-                        p.additional-text
-                            each paragraph, i in slides.one.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.one.paragraphs
+                            p !{paragraph}
                 //- (3) slide :: "two"
                 .section.section-3
                     .left-part
@@ -82,9 +82,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.two.title}
-                        p.additional-text
-                            each paragraph, i in slides.two.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.two.paragraphs
+                            p !{paragraph}
                 //- (4) slide :: "three"
                 .section.section-4
                     .left-part
@@ -98,9 +98,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.three.title}
-                        p.additional-text
-                            each paragraph, i in slides.three.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.three.paragraphs
+                            p !{paragraph}
                 //- (5) slide :: "four"
                 .section.section-5
                     .left-part
@@ -114,9 +114,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.four.title}
-                        p.additional-text
-                            each paragraph, i in slides.four.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.four.paragraphs
+                            p !{paragraph}
                 //- (6) slide :: "five"
                 .section.section-6
                     .left-part
@@ -130,9 +130,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.five.title}
-                        p.additional-text
-                            each paragraph, i in slides.five.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.five.paragraphs
+                            p !{paragraph}
                 //- (7) slide :: "six"
                 .section.section-7
                     .left-part
@@ -146,9 +146,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.six.title}
-                        p.additional-text
-                            each paragraph, i in slides.six.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.six.paragraphs
+                            p !{paragraph}
                 //- (8) slide :: "seven"
                 .section.section-8
                     .left-part
@@ -162,9 +162,9 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         h2.section-heading #{slides.seven.title}
-                        p.additional-text
-                            each paragraph, i in slides.seven.paragraphs
-                                span !{paragraph}
+                        .additional-text
+                          each paragraph, i in slides.seven.paragraphs
+                            p !{paragraph}
                 //- (9) slide :: "end"
                 .section.section-9
                     .left-part
@@ -177,10 +177,10 @@ html(lang='es')
                         .bg-part
                         .bg-part
                         .bg-part
-                        h2.section-heading #{slides.end.title}
-                        p.check-out.additional-text
-                            each paragraph, i in slides.end.paragraphs
-                                span !{paragraph}
+                        h2.section-heading !{slides.end.title}
+                        .check-out.additional-text
+                          each paragraph, i in slides.end.paragraphs
+                            p !{paragraph}
                         //-
                             | Check out my other
                             a(href='https://codepen.io/suez/public/', target='_blank') pens

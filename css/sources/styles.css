@@ -9,6 +9,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('../../fonts/roboto/Roboto-Bold.eot');
+  src: url('../../fonts/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('../../fonts/roboto/Roboto-Bold.woff') format('woff'), url('../../fonts/roboto/Roboto-Bold.ttf') format('truetype'), url('../../fonts/roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 *,
 *:before,
 *:after {
@@ -111,13 +118,13 @@ body {
   position: absolute;
   font-size: 1.6rem;
   font-family: 'roboto';
-  top: 15rem;
+  top: 11rem;
   left: 0rem;
   width: 15rem;
   text-align: center;
   color: #222;
   padding: 0.5rem;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   /*
   &:before {
     content: "";
@@ -238,7 +245,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
   will-change: background;
@@ -250,28 +257,37 @@ body {
   background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
 }
 .nav-elem.nav-2 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/selfie.jpg");
 }
 .nav-elem.nav-3 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/danolweus.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .nav-elem.nav-4 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/classmates.jpg");
 }
 .nav-elem.nav-5 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/delacierva.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .nav-elem.nav-6 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/schoolies.jpg");
 }
 .nav-elem.nav-7 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/bullying.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .nav-elem.nav-8 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/stop.jpg");
 }
 .nav-elem.nav-9 {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
 }
 /* REAL SIDEBAR STYLES END */
 /* SECTIONS STYLES */
@@ -292,52 +308,73 @@ body {
   background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
 }
 .section.section-2 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/selfie.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-2 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/selfie.jpg");
 }
 .section.section-3 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/danolweus.jpg");
 }
 .section.section-3 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/danolweus.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-4 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/classmates.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-4 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/classmates.jpg");
 }
 .section.section-5 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/delacierva.jpg");
 }
 .section.section-5 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/delacierva.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-6 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/schoolies.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-6 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/schoolies.jpg");
 }
 .section.section-7 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/bullying.jpg");
 }
 .section.section-7 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/bullying.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-8 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/stop.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .section.section-8 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/stop.jpg");
 }
 .section.section-9 .left-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
+  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
 }
 .section.section-9 .bg-part {
-  background-image: url("../img/bg/un-monstruo-viene-a-verme.jpg");
+  background-image: url("../img/bg/un-monstruo-viene-a-verme_BN.jpg");
 }
 .left-part,
 .bg-part {
@@ -371,6 +408,7 @@ body {
   display: block;
   position: absolute;
   z-index: 700;
+  font-family: 'roboto', sans-serif;
   color: #222;
   line-height: 1;
   -webkit-transition: opacity 0.1s, color 0.3s, -webkit-transform 0.4s;
@@ -378,6 +416,15 @@ body {
   transition: transform 0.4s, opacity 0.1s, color 0.3s;
   transition: transform 0.4s, opacity 0.1s, color 0.3s, -webkit-transform 0.4s;
   will-change: transform, opacity;
+}
+.section-heading b,
+.additional-text b {
+  color: #111;
+  font-family: 'roboto-bold', sans-serif;
+}
+.section-heading b.colored,
+.additional-text b.colored {
+  color: #f22728;
 }
 .section-heading.not-visible,
 .additional-text.not-visible {
@@ -390,22 +437,23 @@ body {
   transition: transform 0.4s, opacity 0.2s 0.2s, -webkit-transform 0.4s;
 }
 .section-heading {
-  top: 15rem;
+  top: 11rem;
   left: 0;
   margin-top: 0;
   font-size: 6rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'roboto';
-  padding: 0 2rem 4rem;
-  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem 3rem;
+  background: rgba(255, 255, 255, 0.8);
+  /* todo: to apply link effect
   cursor: pointer;
-}
-.section-heading:hover {
-  color: rgba(255, 89, 89, 0.7);
+  &:hover {
+    color: rgba(255, 89, 89, 0.7);
+  }
+  */
 }
 .additional-text {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   padding: 5px 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -415,11 +463,48 @@ body {
   top: 33.2rem;
   left: 2rem;
   font-size: 2rem;
-  font-family: 'roboto';
+}
+.additional-text p {
+  margin: 15px 0;
+  padding: 0;
+  line-height: 30px;
+}
+.additional-text p::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #111;
+  margin-right: 8px;
+  position: relative;
+  bottom: 5px;
 }
 .additional-text span {
-  display: block;
+  color: #f22728;
   padding: 10px 0;
+}
+.additional-text span.inline {
+  display: inline-block;
+}
+.additional-text em {
+  color: #515151;
+  font-style: italic;
+}
+.additional-text.check-out p {
+  margin: 40px 0;
+  font-size: 2em;
+  color: #3c3c3c;
+}
+.additional-text.check-out p::before {
+  background-color: #3c3c3c;
+  width: 8px;
+  height: 8px;
+  bottom: 10px;
 }
 .bg-part {
   width: 12.5%;
