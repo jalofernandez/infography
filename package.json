@@ -1,0 +1,31 @@
+{
+  "name": "Infography",
+  "version": "1.0.0",
+  "description": "A journalistic approach: Bullying according to social status.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.3.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-less": "^3.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sitemap": "^5.0.0",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jalofernandez",
+  "license": "ISC"
+}

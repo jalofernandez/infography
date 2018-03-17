@@ -1,0 +1,18 @@
+//- ALL THE SCRIPTS :: jQuery, Materialize & custom scripts
+script(src='js/jquery.min.js')
+script(src='js/materialize.min.js')
+script(src='js/scripts-min.js')
+//- To register Service Worker & validate it by console log
+script(src='sw.js')
+script.
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                // Registration was successful :)
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }).catch(function (err) {
+                // Registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
