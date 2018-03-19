@@ -161,6 +161,27 @@ $(document).ready(function() {
         }
     });
 
+    /* to navigate between slides / pages by pressing "enter" (next) & "space" (prev) keys */
+    $(document).keypress(function(e) {
+        var code = (e.keyCode ? e.keyCode : e.which);
+        if(code==32){
+            navigateUp();
+            return false;
+        }
+        else if(code==13){
+            navigateDown();
+            return false;
+        }
+    });
+
+    /*
+     $(document).keypress(function(e) {
+        alert("El código de la tecla " + String.fromCharCode(event.which) + " es: " + event.which);
+        //alert("Pulsaste la tecla con código: " + e.which);
+     });
+    */
+
+
     $(document).on("mousewheel DOMMouseScroll",
         ".sidebar-hover, .sidebar-real",
         function(e) {
@@ -230,5 +251,4 @@ $(document).ready(function() {
         maxScroll = $navEl.length * $navEl.height() - $(window).height();
         $sidebar.css("transform", "translateY(0)");
     });
-
 });
