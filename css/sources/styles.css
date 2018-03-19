@@ -113,6 +113,13 @@ body {
   -webkit-transform: translateX(30rem);
   transform: translateX(30rem);
 }
+.logo-urjc {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+}
 .pagination {
   z-index: 500;
   position: absolute;

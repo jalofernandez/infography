@@ -1,6 +1,6 @@
 {
   "name": "Infography",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A journalistic approach: Bullying according to social status.",
   "main": "gulpfile.js",
   "dependencies": {
